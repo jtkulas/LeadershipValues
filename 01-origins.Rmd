@@ -9,3 +9,5 @@ Currently the project aims to develop a 360$^{\circ}$ instrument that can be app
 + leadership-relevant
 + feedback focused
 + spiritual and philosophical derivation
+
+There are two working documents that serve as repositories for project thoughts. [The initial working](https://docs.google.com/document/d/1p81MrX7OqYGDXCxKIOJcDu0b73kf9YULHpWYhjWS0dI/edit?usp=sharing) document and [the currently being most commonly used](https://docs.google.com/document/d/1eRxcsNCrdmKVSGAQuriNUAjPG9SuAJ_q/edit?usp=sharing&ouid=106149280369729835297&rtpof=true&sd=true) document.

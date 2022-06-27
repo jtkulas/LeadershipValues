@@ -3,3 +3,5 @@
 ![](dream-catcher-g6ec41bb43_1920.jpg)
 
 We describe our methods regarding instrument development in this chapter.
+
+We extracted dimensions from @morinis2008everyday's presentation of Mussar, which lists 18 different values. From the descriptions, we defined extremes for each

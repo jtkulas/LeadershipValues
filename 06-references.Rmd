@@ -1,3 +1,13 @@
 `r if (knitr::is_html_output()) '
 # References{-}
 '`
+
+# (APPENDIX) Appendices {-} 
+
+# Frameworks {#frameworks}
+
+Several different philosophical and spiritual frameworks were consulted for an exhaustive list of values. The eventually settled-upon definitions are listed here:
+
+## Mussar
+
+`put final definitions here`

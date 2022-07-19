@@ -5,3 +5,5 @@
 Here is a review of sources considered:
 
 @banks2021behavior did a systematic review of 214 leadership studies finding that the minority of studies focus on behavioral measures of leadership. 
+
+@pierce2013too speak about "too much of a good thing" in the context of reaching points of diminishing returns with "more" of typical antecedents

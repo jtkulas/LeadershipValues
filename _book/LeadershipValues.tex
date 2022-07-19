@@ -68,6 +68,29 @@
 \providecommand{\tightlist}{%
   \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
 \setcounter{secnumdepth}{5}
+\newlength{\cslhangindent}
+\setlength{\cslhangindent}{1.5em}
+\newlength{\csllabelwidth}
+\setlength{\csllabelwidth}{3em}
+\newlength{\cslentryspacingunit} % times entry-spacing
+\setlength{\cslentryspacingunit}{\parskip}
+\newenvironment{CSLReferences}[2] % #1 hanging-ident, #2 entry spacing
+ {% don't indent paragraphs
+  \setlength{\parindent}{0pt}
+  % turn on hanging indent if param 1 is 1
+  \ifodd #1
+  \let\oldpar\par
+  \def\par{\hangindent=\cslhangindent\oldpar}
+  \fi
+  % set entry spacing
+  \setlength{\parskip}{#2\cslentryspacingunit}
+ }%
+ {}
+\usepackage{calc}
+\newcommand{\CSLBlock}[1]{#1\hfill\break}
+\newcommand{\CSLLeftMargin}[1]{\parbox[t]{\csllabelwidth}{#1}}
+\newcommand{\CSLRightInline}[1]{\parbox[t]{\linewidth - \csllabelwidth}{#1}\break}
+\newcommand{\CSLIndent}[1]{\hspace{\cslhangindent}#1}
 \usepackage{booktabs}
 \ifLuaTeX
   \usepackage{selnolig}  % disable illegal ligatures
@@ -77,7 +100,7 @@
 
 \title{Technical Report for the Development of a Values Informed Leadership Measure}
 \author{Jennifer Bragger, Diego Figueiras, Renata Garcia Prieto Palacios Roji, John Kulas \& Ian Lee}
-\date{2022-06-27}
+\date{2022-07-19}
 
 \begin{document}
 \maketitle
@@ -123,6 +146,8 @@ Here is a review of sources considered:
 
 \citet{banks2021behavior} did a systematic review of 214 leadership studies finding that the minority of studies focus on behavioral measures of leadership.
 
+\citet{pierce2013too} speak about ``too much of a good thing'' in the context of reaching points of diminishing returns with ``more'' of typical antecedents
+
 \hypertarget{methods}{%
 \chapter{Methods}\label{methods}}
 
@@ -152,6 +177,13 @@ We extracted dimensions from \citet{morinis2008everyday}'s presentation of Mussa
 \includegraphics{fantasy-g653fba516_1920.jpg}
 
 Now we're famous.
+
+\hypertarget{references}{%
+\chapter{References}\label{references}}
+
+\hypertarget{refs}{}
+\begin{CSLReferences}{0}{0}
+\end{CSLReferences}
 
 \hypertarget{appendix-appendices}{%
 \appendix}
